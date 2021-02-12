@@ -1,6 +1,6 @@
 # Java Day 1
 
-## Java App 실행
+## 1. Java App 실행
 
 + 원인: source, code, language 
 + 결과: application , program
