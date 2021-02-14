@@ -40,8 +40,15 @@
                 
 ## 7. 변수
 
+## 7.1 변수 정의
 + int, double, String . . .
 
 + 사용 이유 : 어떠한 것이 담겨있는지 미리 알게해주기 위해서이다.
 
 
+### 7.2 캐스팅
++ `int d = (int) 1.1`  = `1`
+    + data의 손실이 일어난다.
++ `String s = Integer.toString(d)`
+    + int -> str.
+        + s.getClass() : 타입 확인
