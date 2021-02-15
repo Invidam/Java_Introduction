@@ -3,14 +3,14 @@ package project;
 import org.opentutorials.iot.Elevator;
 import org.opentutorials.iot.Security;
 import org.opentutorials.iot.Lighting;
+import org.opentutorials.iot.DimmingLights;
 import java.util.Scanner;
-public class OKJavaGoinHome {
+public class OKJavaGoinHomeInput {
     
     public static void main(String[] args) {
         
-        //String path = JOptionPane.showInputDialog("Enter a path");
-        Scanner sc = new Scanner(System.in);
-        String id = sc.nextLine();
+        String id = args[0];
+        String bright = args[1];
         
         // Elevator call
         Elevator myElevator = new Elevator(id);
@@ -26,5 +26,9 @@ public class OKJavaGoinHome {
         
         Lighting floorLamp = new Lighting(id + "/ floor Lamp");
         floorLamp.on();
+        
+        DimmingLights moodLamp = new DimmingLights(id + "moodLamp");
+        moodLamp.setBright(Double.parseDouble(bright));
+        moodLamp.on();
     }
 }
