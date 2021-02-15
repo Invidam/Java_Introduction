@@ -1,10 +1,11 @@
 package project;
+
 import org.opentutorials.iot.Elevator;
 import org.opentutorials.iot.Security;
 import org.opentutorials.iot.Lighting;
 //import javax.swing.JOptionPane;
 import java.util.Scanner;
-public class Main {
+public class OKJavaGoinHome {
     
     public static void main(String[] args) {
         
@@ -26,7 +27,5 @@ public class Main {
         
         Lighting floorLamp = new Lighting(id + "/ floor Lamp");
         floorLamp.on();
-        
-        
     }
 }
