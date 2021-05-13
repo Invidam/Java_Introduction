@@ -1,5 +1,6 @@
-# Java Introduction
-+ Repo for Java learing. (21.02.09 ~ 21.02.20) 
+# Java Introduction (21.02.09 ~ 21.02.20) 
++ 중단이유: 싸지방 이용 불가로 인한 부득이한 종료
++ Repo for Java learing. 
     + 공부할 사이트들
         + https://github.com/Invidam/Java_Introduction
             + 내 깃헙
@@ -15,4 +16,3 @@
     + 생활코딩 사이트
     
     
-## 중단이유: 싸지방 이용 불가로 인한 부득이한 종료
